@@ -117,14 +117,19 @@ Python doesn't require you to declare variable types ahead of time.
 ## Quiz – Week 1
 
 1. **What command checks your Python version in the CLI?**
+py --version
 
 2. **What symbol is used for comments in Python?**
+#
 
 3. **What is the data type of: `10.5`?**
+Float
 
 4. **What is the output of `type("5")`?**
+<class 'str'>
 
 5. **True or False: Python uses curly braces for blocks of code.**
+
 
 6. **Which of the following is a valid variable name?**
 
@@ -142,7 +147,7 @@ Practice writing your first line of Python code and get comfortable using the `p
 
 ```python
 # TODO: Replace "Coder" with your name
-print("My name is Coder")
+print("My name is Guillaume")
 ```
 
 ---
@@ -159,7 +164,10 @@ Learn how to declare variables and output multiple values using `print()`.
 # TODO: Store your name and age in variables and print them
 
 ```
+name = "Guillaume"
+age = 33
 
+print(f"My name is {name} and I am {age} years old")
 ---
 
 ### Challenge 3: Calculate Area of a Rectangle
